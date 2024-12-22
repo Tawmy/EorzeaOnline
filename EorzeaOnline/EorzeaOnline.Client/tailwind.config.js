@@ -2,7 +2,11 @@
 module.exports = {
     content: ["./**/*.{razor,html,cshtml}"],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                "archivo": ['Archivo Narrow', 'sans-serif']
+            }
+        },
     },
     plugins: [],
 }
