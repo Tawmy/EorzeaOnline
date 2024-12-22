@@ -1,4 +1,5 @@
 using EorzeaOnline.Components;
+using Tailwind;
 using _Imports = EorzeaOnline.Client._Imports;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +14,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    _ = app.RunTailwind("css:watch", "../EorzeaOnline.Client");
     app.UseWebAssemblyDebugging();
 }
 else
