@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EorzeaOnline", "EorzeaOnline\EorzeaOnline\EorzeaOnline.csproj", "{C2D4B637-CFF6-4BDD-8D85-66425B0D85F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EorzeaOnline.Client", "EorzeaOnline\EorzeaOnline.Client\EorzeaOnline.Client.csproj", "{0AD0EEEB-4142-4817-A6E1-703AA8AA5934}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2D4B637-CFF6-4BDD-8D85-66425B0D85F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D4B637-CFF6-4BDD-8D85-66425B0D85F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D4B637-CFF6-4BDD-8D85-66425B0D85F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D4B637-CFF6-4BDD-8D85-66425B0D85F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD0EEEB-4142-4817-A6E1-703AA8AA5934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD0EEEB-4142-4817-A6E1-703AA8AA5934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD0EEEB-4142-4817-A6E1-703AA8AA5934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD0EEEB-4142-4817-A6E1-703AA8AA5934}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
